@@ -1,0 +1,25 @@
+diff --git a/flatpak/com.github.theCalcaholic.StreamDeck.appdata.xml b/flatpak/com.github.theCalcaholic.StreamDeck.appdata.xml
+index f765d11..1e7e4b8 100644
+--- a/flatpak/com.github.theCalcaholic.StreamDeck.appdata.xml
++++ b/flatpak/com.github.theCalcaholic.StreamDeck.appdata.xml
+@@ -8,6 +8,10 @@
+     <name>Stream Deck</name>
+     <summary>Add Streaming Web Services to Steam</summary>
+ 
++    <developer id="io.github.theCalcaholic">
++      <name>Tobias Knöppler</name>
++    </developer>
++
+     <description>
+         <p>
+             Stream Deck is an application for adding and managing Streaming Web Services and integrate them into Steam.
+diff --git a/share/applications/com.github.theCalcaholic.StreamDeck.desktop b/share/applications/com.github.theCalcaholic.StreamDeck.desktop
+index 42287b0..81404f6 100644
+--- a/share/applications/com.github.theCalcaholic.StreamDeck.desktop
++++ b/share/applications/com.github.theCalcaholic.StreamDeck.desktop
+@@ -5,4 +5,4 @@ Name=Stream Deck
+ Comment=Add (streaming) web services to Steam
+ Icon=com.github.theCalcaholic.StreamDeck
+ Exec=streamdeck.sh
+-
++Categories=Utility;
