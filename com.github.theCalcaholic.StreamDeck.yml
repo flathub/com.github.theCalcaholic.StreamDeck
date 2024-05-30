@@ -58,6 +58,8 @@ modules:
         url: https://github.com/theCalcaholic/streamdeck.git
         tag: v0.9.0
         commit: 2a42b62d7ba42ebe8aff3e9ec2015039e7d74257
+      - type: patch
+        path: metadata-fix.patch
     build-commands:
       - pip3 install --prefix=/app --root=/ .
       - install -Dm755 flatpak/streamdeck.sh /app/bin/streamdeck.sh
